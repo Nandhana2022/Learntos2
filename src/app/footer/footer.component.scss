@@ -1,0 +1,158 @@
+/* Example styles for the footer */
+.footer-style-ten {
+  background-color: #1e1e1e;
+  padding: 20px;
+}
+
+.footer-intro {
+  text-align: center;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: antiquewhite;
+}
+
+.footer-nav-link {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav-link li {
+  margin-bottom: 5px;
+}
+
+.footer-nav-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav-link a:hover {
+  color:yellow;
+}
+
+.address-footer {
+  text-align: right;
+}
+
+.social-icon {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icon li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icon a {
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icon a:hover {
+  color: #000;
+}
+
+/* Additional styles as per your requirement */
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+.app-store-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.app-store-icons img {
+  width: 100px;
+}
+
+/* Adjustments for responsiveness */
+
+@media (max-width: 768px) {
+  .footer-intro {
+    text-align: left;
+    color: white;
+  }
+
+  .address-footer {
+    text-align: left;
+  }
+
+  .footer-nav-link,
+  .footer-nav-link li,
+  .footer-nav-link a {
+    text-align: center;
+  }
+}
+
+.footer-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+footer {
+  background-color: #000; /* Add your desired background color */
+  color: #fff; /* Add your desired text color */
+}
+
+.inner-wrapper {
+  padding: 20px 0;
+}
+
+.footer-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo img {
+  height: 90px; /* Adjust the logo height as needed */
+}
+
+/* Add any additional CSS styles as per your requirements */
+
+footer {
+  background-color: #000; /* Add your desired background color */
+  color: #fff; /* Add your desired text color */
+}
+
+.inner-wrapper {
+  padding: 20px 0;
+}
+
+.footer-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-nav-link,
+.address-footer {
+  align-self: flex-start;
+}
+
+.logo img {
+  height: 90px; /* Adjust the logo height as needed */
+}
+
+/* Add any additional CSS styles as per your requirements */
