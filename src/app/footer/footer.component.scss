@@ -268,3 +268,30 @@
 .form-container button:hover {
   background-color: #45a049;
 }
+.d-flex {
+  display: flex;
+}
+
+.social-icon {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icon li {
+  margin-right: 10px;
+}
+
+.social-icon a {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icon a:hover {
+  color: #007bff;
+}
+
+.social-icon fa-icon {
+  font-size: 24px;
+}
